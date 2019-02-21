@@ -13,5 +13,6 @@ run the scripts, then going to layer,
 duplicate the latest layer or adjust the intensity.  
 
 **Known issue**  
-It requires you to clear your current morph target, bakes all exist layer,  
+It requires you to clear your current morph target,  
+bakes all exist layer,  
 clear any existing mask to only mask the detail area.  
