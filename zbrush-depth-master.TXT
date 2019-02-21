@@ -1,0 +1,19 @@
+﻿//RECORDED ZSCRIPT 2018
+// There is a potential problem that in sometimes,
+// before bake all, if clear the mask first,
+// after bake all, the mask still persist, it's just not show properly.
+// Do a random masking then clear mask to resolve the problem.
+[IConfig,2018]
+[If, 1=1,
+	[IPress,Tool:Morph Target:DelMT]
+	[IPress,Tool:Morph Target:StoreMT]
+	[IModSet,Tool:Deformation:Polish,1]
+	[ISet,Tool:Deformation:Polish,50]
+	[IPress,Tool:Layers:New]
+	[IPress,Tool:Morph Target:Switch]
+	[IModSet,Tool:Layers:Untitled Layer,3]
+	[IPress,Tool:Layers:Duplicate]
+	[ISet,Tool:Layers:Untitled Layer,2]
+	[MessageOK, "Operate complete"]
+]
+/*End of ZScript*/
