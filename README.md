@@ -1,5 +1,6 @@
 # zbrush-depth-master
-Mask a area, then use a simple approach to change its depth!
+**Contact**  
+See https://github.com/mhtvsSFrpHdE/contact-me  
 
 **What's this**  
 In some case, the sculpted details may too thin or heavy.  
