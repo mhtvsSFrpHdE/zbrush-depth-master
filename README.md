@@ -1,7 +1,6 @@
-# zbrush-depth-master
-**Contact**  
-See https://github.com/mhtvsSFrpHdE/contact-me  
+![](https://raw.githubusercontent.com/mhtvsSFrpHdE/contact-me/master/AboutIssue.svg)
 
+# zbrush-depth-master
 **What's this**  
 In some case, the sculpted details may too thin or heavy.  
 A approch is to use relax, morph target and layer to cover the details,  
